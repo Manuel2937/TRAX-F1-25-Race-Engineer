@@ -82,7 +82,7 @@ Useful helpers:
 - find_wheel_button.bat identifies the button number to use for ptt_joystick_button.
 Automatic race briefings
 Under alerts:
-- periodic_interval_seconds: how often APEX gives a regular race briefing, in seconds. The default is 60; the code enforces a minimum of 15 seconds.
+- periodic_interval_seconds: how often TRAX gives a regular race briefing, in seconds. The default is 60; the code enforces a minimum of 15 seconds.
 Telemetry-triggered alerts (such as weather changes, safety car, penalties, tyre wear and low fuel) are separate from the regular briefing timer.
 Keyboard controls and custom actions
 Start with controls.dry_run: true. In this mode APEX prints the keys it would press without sending them to the game.
