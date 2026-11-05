@@ -1,4 +1,4 @@
-APEX Engineer AI
+TRAX Engineer AI
 A voice-based race engineer for F1 25 on Windows. APEX reads live game telemetry, listens to your radio messages, answers using an AI model, and can optionally press configured keyboard controls.
 
 !!! IMPORTANT -- HANDS FREE MODE IS TURNED ON BY DEFAULT WHICH MEANS WHEN YOU START ENGINEER YOUR MICROPHONE WILL BE ACTIVE UNTILL YOU STOP ENGINEER !!!
@@ -26,9 +26,9 @@ Requirements
 - VLC is recommended for reliable, interruptible voice playback
 The speech recognition model runs locally after it has been downloaded. AI text generation uses the Groq cloud API. Do not assume that your voice audio is sent to Groq: the application sends recognised text to the configured AI endpoint.
 Installation
-1. Download the repository using Code → Download ZIP, or clone it:git clone https://github.com/YOUR-USERNAME/APEX-Engineer-AI.git
+1. Download the repository
 2. Open the project folder.
-3. Install the Python packages:install_all.bat
+3. Install the Python packages: install_all.bat
 4. Create a Groq API key at Groq Console.
 5. Open config.json and enter your key in llm.api_key. Also customise your driver name, engineer name, voice, microphone and controls.
 6. In F1 25, enable UDP telemetry:
